@@ -68,7 +68,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
               
                 
     	        <div class="c_div1">
-    	                    用户信息
+    	                    用户信息。。。。
     	          <input type="text" value="aaaa"/>
     	         
     	                           
@@ -84,7 +84,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	        </div>
          </div>
          
-         
+            
          
          <div id="footer">
          </div>
