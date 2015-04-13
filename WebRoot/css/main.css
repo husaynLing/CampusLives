@@ -1,0 +1,125 @@
+
+
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select
+{padding:0; margin:0; font-family:Arial;}
+li {list-style-type:none;}
+img {border:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+
+
+#container{
+width:1366px;
+height:946px;
+background:url("../images/main_background.png") repeat-x;
+position:absolute;
+}
+
+#header{
+width:100%;
+height:100px;
+position:absolute;
+top:0px;
+}
+
+#body{
+width:100%;
+height:710px;
+position:absolute;/*  4-9*/
+left:0px;/*  4-10*/
+top:100px;/*4-10*/
+}
+
+#nav{
+  width:100%;
+  height:20px;
+  background:yellow;
+  text-align:center;
+  position:relative;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* */
+ #nav ul{
+ width:60%;
+ margin-left:auto;
+ margin-right:auto;
+ }
+#nav ul li{
+	width:150px;
+	float:left;
+	position:relative;
+	background:olive;
+	
+	}
+	
+#nav ul li a{/*  一级导航 */
+	width:150px;
+	height:20px;
+	text-align:center;
+	display:block;
+	
+	}	
+	
+#nav ul li a:hover{
+  background:white;
+ 
+}	
+	
+#nav ul li ul{/* 鼠标没有移到该区域时，第二层为不可见 */
+	display:none;
+	
+	}
+	
+	
+#nav ul li:hover ul{/* 二级导航 */
+	display:block;
+	width:150px;
+	position:absolute;
+	 left:-40px;
+	
+	}
+
+#nav ul li:hover ul li:hover a{
+	  
+		display:block;
+		background:black;	
+	}
+
+
+.c_div1{/*4-10*/
+width:294px;
+height:200px;
+border:2px solid;
+background:white;
+position:absolute;
+top:150px;
+left:350px;
+}
+
+
+.c_div2{
+
+width:5px;
+height:600px;
+background:red;
+position:absolute;
+top:100px;
+left:800px;
+}
+
+
+
+#footer{
+width:100%;
+height:136px;/*  4-9*/
+position:absolute;
+bottom:0px;
+background:url("../images/footer.png") repeat-x;
+}
