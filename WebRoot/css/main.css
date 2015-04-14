@@ -1,0 +1,162 @@
+
+#container{
+width:1560px;
+height:946px;
+background:url("../image/main_background.png") repeat-x;
+position:absolute;
+}
+
+#header{
+width:100%;
+height:100px;
+position:absolute;
+top:0px;
+}
+
+#body{
+width:100%;
+height:710px;
+position:absolute;/*  4-9*/
+left:0px;/*  4-10*/
+top:100px;/*4-10*/
+}
+
+#nav{
+  width:100%;
+  height:20px;
+  text-align:center;
+  position:relative;
+}
+
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+/* */
+ #nav ul{
+ width:60%;
+ margin-left:auto;
+ margin-right:auto;
+ }
+#nav ul li{
+	width:150px;
+	float:left;
+	position:relative;
+	background:olive;
+	
+	}
+	
+#nav ul li a{/*  一级导航 */
+	width:150px;
+	height:20px;
+	text-align:center;
+	display:block;
+	
+	}	
+	
+#nav ul li a:hover{
+  background:white;
+ 
+}	
+	
+#nav ul li ul{/* 鼠标没有移到该区域时，第二层为不可见 */
+	display:none;
+	
+	}
+	
+	
+#nav ul li:hover ul{/* 二级导航 */
+	display:block;
+	width:150px;
+	position:absolute;
+	 left:-40px;
+	
+	}
+
+#nav ul li:hover ul li:hover a{
+	  
+		display:block;
+		background:#b5a642;	
+	}
+
+
+.c_div1{/*4-10*/
+width:294px;
+height:200px;
+border:2px solid ;
+background:white;
+position:absolute;
+top:150px;
+left:350px;
+}
+
+
+.c_div2{
+
+width:5px;
+height:600px;
+background:red;
+position:absolute;
+top:100px;
+left:740px;
+}
+
+.c_div3{
+width:294px;
+height:200px;
+top:450px;
+left:350px;
+position: absolute;
+
+}
+       #middle_b{
+			
+				
+			background: none repeat scroll 0% 0% #FFF;
+			overflow:hidden;
+			border: 2px dashed #CCC;
+			width: 100%;
+			border-left:10px solid #cdc;
+		    border-right:10px solid #cdc;
+				
+		}
+		
+		#in_middle_b{/*整个平移*/
+			border: 2px;
+			float: left;
+			width: 1670px;/* in_middle_b 必须容纳d1+d2的宽。 width:300% ;实际是 父级 即middle_b的3倍， 3*800=2400*/
+		}
+				
+		
+		#d1{
+			float:left;
+			}
+		#d2{
+			float:left;
+			}
+
+.c_div4{
+width:394px;
+height:500px;
+top:150px;
+left:850px;
+position: absolute;
+background:#c0d9d9;
+
+}
+   
+
+
+
+
+#footer{
+width:100%;
+height:136px;/*  4-9*/
+position:absolute;
+bottom:0px;
+
+background:url("../image/footer.png") repeat-x;
+}
