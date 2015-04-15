@@ -111,16 +111,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	       </div>
     	       <p align="center"><b>hello Welcome to here..</b></p>
     	       <div class="c_div4">
-    	          <form>
-    	          		<table align="center">
-    	          		        <th  background="#cdcdcd" >爱心活动列表</th>
-    	          		       
-    	          				<tr>
-    	          						<jsp:include page="activitydeal.jsp" flush="true"></jsp:include> 
-    	          				  
-    	          				</tr>
-    	          		</table>
-    	          </form>
+    	        
+    	             
+    	          	  <jsp:include page="activitydeal.jsp" flush="true"></jsp:include> 
+    	           
+    	        
     	       
     	       </div>
          </div>
