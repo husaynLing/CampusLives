@@ -41,10 +41,7 @@ public class LoginServlet extends HttpServlet {
 		//request.getParameter("user");
 		request.getRequestDispatcher("/page/foreground/loveactivity.jsp").forward(request, response);
 		
-		//response.setContentType("text/html");
-		
-	System.out.print("12345566");
-		
+
 		
 	}
 

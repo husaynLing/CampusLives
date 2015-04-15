@@ -23,15 +23,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-      <form>
-        <table align="center">
-        <thead align="right" > <b>爱心活动列表</b></thead>
-             <tbody>
-               
-             <tr>
-                活动1：谁的风格色 为人格侮辱过而非  <a href="#">详情</a> 
-               
-            </tr>
-            <tr>
-                                                活动2：谁法国电信辅导费和地方很多  <a  href="#">详情</a> 
-</tr></tbody></table></form></body></html>
+      
+  </body>
+</html>

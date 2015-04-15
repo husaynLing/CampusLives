@@ -141,6 +141,7 @@ position: absolute;
 .c_div4{
 width:394px;
 height:500px;
+float:left;
 top:150px;
 left:850px;
 position: absolute;
