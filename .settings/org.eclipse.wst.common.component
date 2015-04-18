@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="CampusLive">
+    <wb-module deploy-name="CampusLives">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="/CampusLive"/>
-        <property name="java-output-path" value="/CampusLive/WebRoot/WEB-INF/classes"/>
+        <property name="java-output-path" value="/CampusLives/WebRoot/WEB-INF/classes"/>
     </wb-module>
 </project-modules>
