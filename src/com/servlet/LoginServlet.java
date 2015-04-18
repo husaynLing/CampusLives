@@ -2,11 +2,15 @@ package com.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Vector;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.bean.LoveActivity;
+import com.dbo.ConnectionOperation;
 
 public class LoginServlet extends HttpServlet {
 
@@ -38,8 +42,11 @@ public class LoginServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		//request.getParameter("user");
-		request.getRequestDispatcher("/page/foreground/loveactivity.jsp").forward(request, response);
+	   request.setCharacterEncoding("utf-8");
+	   response.setCharacterEncoding("utf-8");
+	   
+
+	   request.getRequestDispatcher("/page/foreground/love_activity.jsp").forward(request, response);
 		
 
 		

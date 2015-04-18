@@ -1,4 +1,7 @@
 eclipse.preferences.version=1
-encoding//WebRoot/page/foreground/activityapply.jsp=UTF-8
-encoding//WebRoot/page/foreground/activitydeal.jsp=UTF-8
-encoding//src/com/dbo/ConnectionManager.java=UTF-8
+encoding//WebRoot/page/background/add_activity.jsp=UTF-8
+encoding//WebRoot/page/background/alter_activity.jsp=UTF-8
+encoding//WebRoot/page/background/delete_activity.jsp=UTF-8
+encoding//WebRoot/page/foreground/apply_activity.jsp=UTF-8
+encoding//WebRoot/page/foreground/check_cancel_apply.jsp=UTF-8
+encoding//WebRoot/page/foreground/look_activity.jsp=UTF-8

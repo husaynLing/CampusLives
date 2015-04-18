@@ -29,7 +29,10 @@
 				},30);
  }
  
- 
+ function activityapply(){
+	  location.href ='activityapply.jsp';
+
+	}
  window.onload=function (){
 		
 		startmove();
